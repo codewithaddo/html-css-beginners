@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Class 2</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+<header>
+<center><h2>Home &nbsp;&nbsp;&nbsp;&nbsp; About Us &nbsp;&nbsp;&nbsp;&nbsp; Services &nbsp;&nbsp;&nbsp;&nbsp; Contact</h2></center>
+<!--  <h4>Social Media Icons</h4>  -->
+</header>
+
+<main>
+<center>
+    <h2 style="color:red;">Simple Registration Form</h2>
+   <form method="GET">
+<label for="studentNam">Student Name</label><br>
+<input type="text" id="studentName" name="fullname" placeholder="Enter Name" required><br><br>
+
+<label for="studentAge">Student Age</label><br>
+<input type="number" id="studentAge" name="age" placeholder="Enter Age" required><br><br>
+
+<select id="studentGender" name="gender" required>
+    <option value="">Select Gender</option>
+    <option value="Male">Male</option>
+    <option value="Female">Female</option>
+</select>
+<br><br>
+
+<p>Contact Method</p>
+<input type="radio" name="contactMethod" id="byMail" value="Mail">
+<label for="byMail">Mail</label>
+
+<input type="radio" name="contactMethod" id="byPhone" value="Phone">
+<label for="byPhone">Phone</label> <br><br>
+
+<label for="shortMessage">Short Message</label><br>
+<textarea id="shortMessage" name="message" rows="4" cols="40"></textarea>
+
+<br><br><input type="submit" value="Register Now">
+   </form>
+    
+</center>
+
+</main>
+
+<footer></footer>
+</body>
+</html>
