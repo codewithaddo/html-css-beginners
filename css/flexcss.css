@@ -1,0 +1,21 @@
+.parentDiv{
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+    height: 800px;
+    background-color: red;
+    justify-content: center;
+    align-items: center;
+}
+
+.child1{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}
+
+.child2{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+}

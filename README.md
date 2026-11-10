@@ -20,6 +20,7 @@ Work through them in this order:
 | 5 | [`divs.html`](divs.html) | `div` boxes and **inline CSS** (`style="..."`) |
 | 6 | [`div2.html`](div2.html) | **Internal CSS** (`<style>` tag) — element selectors and `#id` selectors |
 | 7 | [`externalcss.html`](externalcss.html) + [`css/styles.css`](css/styles.css) | **External CSS** (`<link>`) and `.class` selectors |
+| 8 | [flex1.html`](externalcss.html)  |
 
 ## 🚀 Getting started
 
