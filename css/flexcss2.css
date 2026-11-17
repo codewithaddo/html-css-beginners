@@ -1,23 +1,19 @@
 .parent{
     display: flex;
-    flex: 0 1 auto;
     height: 600px;
     width: 600px;
     flex-direction: row;
     background-color: blue;
     gap: 15px;
-    justify-content: center;
-}
-
-.box{
-    width: 200px;
-    height: 200px;
+    
 }
 
 .child1{
     background-color: red;
+    flex:1;
 }
 
 .child2{
     background-color: yellow;
+    flex:2;
 }
