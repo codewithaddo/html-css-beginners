@@ -6,7 +6,7 @@ body{
     display: flex;
     height: 600px;
     width: 250px;
-    flex-direction: row;
+    flex-direction: column;
     background-color: blue;
     gap: 15px;
     margin: 15px;
@@ -15,9 +15,9 @@ body{
 
 .child1{
     background-color: red;
-    width: 250px;    
+    flex: 1;
     padding: 5px;
-    margin: 20px 20px 20px 20px;
+   
     
 }
 
@@ -26,3 +26,4 @@ body{
     flex: 3;
     
 }
+
