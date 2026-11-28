@@ -20,7 +20,11 @@ Work through them in this order:
 | 5 | [`divs.html`](divs.html) | `div` boxes and **inline CSS** (`style="..."`) |
 | 6 | [`div2.html`](div2.html) | **Internal CSS** (`<style>` tag) — element selectors and `#id` selectors |
 | 7 | [`externalcss.html`](externalcss.html) + [`css/styles.css`](css/styles.css) | **External CSS** (`<link>`) and `.class` selectors |
-| 8 | [flex1.html`](externalcss.html)  |
+| 8 | [flex1.html`](flex1.html and flexcss1.css)  |
+| 9 | [flex2.html`](flex2.html and flexcss2.css)  |
+| 10 | [responsive-header.html`](externalcss.html and responsiveHeader.css)  |— use of media query to control flex directions.
+| 11 | [colors.html`](colors.html and colors.css)  |— understanind hexadecimal color codes
+
 
 ## 🚀 Getting started
 
